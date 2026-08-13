@@ -74,6 +74,7 @@ nav a:hover { color: var(--text); }
 .section-heading { max-width: 790px; margin-bottom: 42px; }
 .section h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.2rem, 4vw, 4.2rem); line-height: 1.05; margin: 8px 0 0; }
 .grid.three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.grid.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; max-width: 790px; }
 .card { background: linear-gradient(180deg, rgba(19,25,37,.92), rgba(13,17,25,.92)); border: 1px solid var(--line); border-radius: 18px; padding: 28px; }
 .card h3 { margin-top: 0; font-size: 1.2rem; }
 .card p { color: var(--muted); margin-bottom: 0; }
@@ -100,7 +101,7 @@ footer { min-height: 110px; display: flex; align-items: center; justify-content:
   .hero { min-height: auto; grid-template-columns: 1fr; padding-top: 58px; }
   .hero-mark { order: -1; justify-content: start; }
   .hero-mark img { width: 160px; }
-  .stats, .grid.three, .split, .contact { grid-template-columns: 1fr; }
+  .stats, .grid.three, .grid.two, .split, .contact { grid-template-columns: 1fr; }
   .stats > div + div { border-left: 0; border-top: 1px solid var(--line); }
   .section { padding: 78px 0; }
   .split, .contact { gap: 28px; }
